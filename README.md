@@ -11,7 +11,7 @@ En cada etapa:
 1. Ejecuta los comandos indicados.
 2. Realiza la modificación solicitada.
 3. Comprueba la evidencia indicada.
-4. Marca la casilla de completado.
+4. Marca la casilla de completado   .
 
 No marques una casilla si el comando produjo un error o si no puedes explicar qué cambió.
 
