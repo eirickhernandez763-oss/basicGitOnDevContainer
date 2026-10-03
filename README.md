@@ -37,7 +37,7 @@ mvn --version
 
 **Actividad:** copia las versiones que obtuviste en tus apuntes o en el reporte de la práctica.
 
-- [ ] Confirmé que Git, `java`, `javac` y Maven están disponibles.
+- [x] Confirmé que Git, `java`, `javac` y Maven están disponibles.
 
 Los ejemplos están en `src/`. La carpeta `bin/` se usa solamente para archivos compilados y está excluida por `.gitignore`.
 
@@ -56,8 +56,8 @@ Observa que `javac` genera archivos `.class` en `bin/`, mientras que `java` ejec
 
 **Actividad:** modifica el mensaje de `Saludo.java` o agrega una operación a `Calculadora.java`, vuelve a compilar y ejecuta nuevamente la clase correspondiente.
 
-- [ ] Compilé y ejecuté los dos ejemplos.
-- [ ] Realicé una modificación en un archivo `.java` y comprobé su resultado.
+- [x] Compilé y ejecuté los dos ejemplos.
+- [x] Realicé una modificación en un archivo `.java` y comprobé su resultado.
 
 ## 3. Preparar el repositorio
 
@@ -79,9 +79,9 @@ git diff --cached
 
 **Actividad:** prepara únicamente los cuatro archivos indicados. Antes de continuar, verifica que `git diff --cached` muestre tus cambios y que no incluya archivos `.class`.
 
-- [ ] Revisé el estado inicial con `git status`.
-- [ ] Agregué los archivos fuente y de configuración con `git add`.
-- [ ] Revisé el contenido preparado con `git diff --cached`.
+- [x] Revisé el estado inicial con `git status`.
+- [x] Agregué los archivos fuente y de configuración con `git add`.
+- [x] Revisé el contenido preparado con `git diff --cached`.
 
 ## 4. Crear y corregir commits
 
@@ -111,9 +111,9 @@ git log --oneline -1
 
 **Actividad:** después del primer commit, cambia una línea del README, ejecuta `git diff`, prepara el cambio y usa `git commit --amend --no-edit`. Comprueba que el último commit contiene la modificación.
 
-- [ ] Creé el primer commit con un mensaje descriptivo.
-- [ ] Revisé un cambio con `git diff` antes de prepararlo.
-- [ ] Incorporé el cambio al commit anterior con `git commit --amend`.
+- [x] Creé el primer commit con un mensaje descriptivo.
+- [x] Revisé un cambio con `git diff` antes de prepararlo.
+- [x] Incorporé el cambio al commit anterior con `git commit --amend`.
 
 ## 5. Crear una rama y combinarla con `merge`
 
@@ -141,9 +141,9 @@ git commit
 
 **Actividad:** en `mejora-instrucciones`, agrega una aclaración breve al README. Después integra la rama en `main` y comprueba el historial con `git log --oneline --all --decorate`.
 
-- [ ] Creé la rama `mejora-instrucciones`.
-- [ ] Creé un commit dentro de esa rama.
-- [ ] Regresé a `main` y combiné la rama con `git merge`.
+- [x] Creé la rama `mejora-instrucciones`.
+- [x] Creé un commit dentro de esa rama.
+- [x] Regresé a `main` y combiné la rama con `git merge`.
 
 ## 6. Compartir y recibir cambios
 
@@ -170,9 +170,9 @@ Antes de usar `push` o `pull`, confirma que tienes permiso de acceso y que sabes
 
 **Actividad:** no ejecutes `push` sobre un repositorio ajeno sin autorización. Si tienes un remoto de práctica, publica tu rama; después ejecuta `git pull` y registra si había cambios nuevos. Si no tienes permisos, muestra la salida de `git remote -v` y explica por qué no puedes publicar.
 
-- [ ] Revisé el remoto y las ramas disponibles.
-- [ ] Intenté o realicé un `push` con autorización.
-- [ ] Ejecuté `git pull` y comprendí su resultado.
+- [x] Revisé el remoto y las ramas disponibles.
+- [x] Intenté o realicé un `push` con autorización.
+- [x] Ejecuté `git pull` y comprendí su resultado.
 
 ## 7. Generar un archivo de parche
 
@@ -196,8 +196,8 @@ git diff > cambios-sin-commit.patch
 
 **Actividad:** genera `cambio.patch` a partir de dos commits y ábrelo como texto. Identifica las líneas que comienzan con `+` y `-` y explica qué representan.
 
-- [ ] Generé un archivo `.patch` con `git diff`.
-- [ ] Inspeccioné el parche y expliqué sus diferencias.
+- [x] Generé un archivo `.patch` con `git diff`.
+- [x] Inspeccioné el parche y expliqué sus diferencias.
 
 Los archivos `.patch` de este ejercicio también están excluidos por `.gitignore`, porque son productos temporales de práctica. Si necesitas entregarlo, agrégalo explícitamente con `git add -f nombre.patch`.
 
@@ -221,16 +221,16 @@ El objetivo es que el repositorio conserve el código fuente `.java`, el README 
 
 **Actividad:** crea archivos de prueba para `ejemplo.bin` y `ejemplo.javac`, y comprueba que Git los ignore. Ejecuta `git status --short` y confirma que no aparecen como archivos sin seguimiento.
 
-- [ ] Confirmé que se ignoran `bin/`, `.class`, `.bin` y `.javac`.
-- [ ] Confirmé que los archivos compilados no aparecen como cambios pendientes.
+- [x] Confirmé que se ignoran `bin/`, `.class`, `.bin` y `.javac`.
+- [x] Confirmé que los archivos compilados no aparecen como cambios pendientes.
 
 
 ## Lista final de comprobación
 
 Antes de entregar, verifica todo lo siguiente:
 
-- [ ] `git status` muestra solamente cambios intencionales o está limpio.
-- [ ] El historial contiene commits descriptivos.
-- [ ] Existe una rama integrada mediante `merge`.
-- [ ] El repositorio conserva los archivos `.java`, pero no archivos `.class`, `.bin` ni `.javac` versionados.
-- [ ] El README conserva todas las casillas marcadas como evidencia de la práctica.
+- [x] `git status` muestra solamente cambios intencionales o está limpio.
+- [x] El historial contiene commits descriptivos.
+- [x] Existe una rama integrada mediante `merge`.
+- [x] El repositorio conserva los archivos `.java`, pero no archivos `.class`, `.bin` ni `.javac` versionados.
+- [x] El README conserva todas las casillas marcadas como evidencia de la práctica.
