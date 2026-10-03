@@ -17,6 +17,8 @@ No marques una casilla si el comando produjo un error o si no puedes explicar qu
 
 ## 1. ¿Qué hay en este entorno?
 
+eyey jerry
+
 El contenedor está basado en Debian Trixie y tiene disponibles:
 
 - Java OpenJDK 25 (incluye `java` y `javac`).
